@@ -51,8 +51,9 @@ DSA_LEETcode/
 ## ◈ Sync setup
 
 - **Profile dashboard:** scheduled refresh of public LeetCode profile statistics.
-- **Accepted solutions:** connect a browser-side LeetCode-to-GitHub sync tool to this repository to commit code immediately after an Accepted submission.
-- **Privacy:** never put your LeetCode session cookie in a repository or workflow secret. Use a narrowly scoped GitHub token only in a trusted local extension.
+- **Accepted solutions:** use the [automatic sync setup guide](docs/LEETCODE_SYNC_SETUP.md) to configure a browser extension for this repository.
+- **Statistics:** GitHub Actions refreshes public profile counts daily; run the workflow manually from the Actions tab for an immediate refresh.
+- **Privacy:** never put your LeetCode session cookie or GitHub token in this repository. Restrict the extension token to this repository and Contents read/write.
 
 <div align="center">
 
